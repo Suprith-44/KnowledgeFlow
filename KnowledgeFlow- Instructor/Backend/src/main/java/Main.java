@@ -21,8 +21,7 @@ public class Main {
 
         FirebaseOptions options = FirebaseOptions.builder()
             .setCredentials(com.google.auth.oauth2.GoogleCredentials.fromStream(serviceAccount))
-            .setDatabaseUrl("https://ooad-470e4-default-rtdb.asia-southeast1.firebasedatabase.app") // <-- Change this to your Database URL
-            .build();
+            .setDatabaseUrl("")
         FirebaseApp.initializeApp(options);
 
         Javalin app = Javalin.create(config -> {
