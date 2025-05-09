@@ -2,8 +2,8 @@
 
 **Knowledge Flow** is a full-featured Learning Management System (LMS) designed with two separate web portals for Learners and Instructors. It follows the **Model-View-Controller (MVC)** architecture and is powered by a **Javalin backend**.
 
-![Image1](Images/Learner1.jpg)
-![Image2](Images/Instructor1.jpg)
+![Image1](Images/learner1.jpg)
+![Image2](Images/instructor1.jpg)
 ---
 
 ## Features
